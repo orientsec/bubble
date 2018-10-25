@@ -29,8 +29,8 @@ class BubbleManager {
 
     static final int MSG_TIMEOUT = 0;
 
-    private static final int SHORT_DURATION_MS = 1500;
-    private static final int LONG_DURATION_MS = 2750;
+    private static final int SHORT_DURATION_MS = 3000;
+    private static final int LONG_DURATION_MS = 6000;
 
     private static BubbleManager sBubbleManager;
 

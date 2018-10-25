@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
                             public void onClick(View v) {
                                 Bubble.make(MainActivity.this, Constant.LENGTH_LONG)
                                         .setTitle("我是标题")
-                                        .setContent("详情: 测试测试测试，测试测试测试测试！测试测试测试")
+                                        .setContent("详情: 测试测试测试，测试测试测试测试！测试测试测试测试测试测试测试！测试测试测试!" +
+                                                "测试测试测试测试！测试测试测试测试测试测试测试！测试测试测试测试测试测试测试！测试测试测试")
                                         .setIcon(R.drawable.ic_logo)
                                         .setAction(new View.OnClickListener() {
                                             @Override
