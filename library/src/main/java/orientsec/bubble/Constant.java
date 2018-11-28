@@ -1,8 +1,8 @@
 package orientsec.bubble;
 
-import android.support.annotation.IntDef;
-import android.support.annotation.IntRange;
-import android.support.v4.view.animation.FastOutSlowInInterpolator;
+import androidx.annotation.IntDef;
+import androidx.annotation.IntRange;
+import androidx.interpolator.view.animation.FastOutSlowInInterpolator;
 import android.view.animation.Interpolator;
 
 import java.lang.annotation.Retention;

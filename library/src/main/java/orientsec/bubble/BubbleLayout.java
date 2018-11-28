@@ -9,8 +9,8 @@ import android.os.Build;
 import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
-import android.support.annotation.NonNull;
-import android.support.v4.view.ViewCompat;
+import androidx.annotation.NonNull;
+import androidx.core.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.VelocityTracker;
@@ -358,7 +358,6 @@ public class BubbleLayout extends FrameLayout {
         return mDuration;
     }
 
-    private float mOpenPercent = 0.5f;
     private int mScaledTouchSlop;
     private int mLastX;
     private int mLastY;
@@ -464,6 +463,7 @@ public class BubbleLayout extends FrameLayout {
     }
 
     private void judgeResetClose() {
+        float mOpenPercent = 0.5f;
         if (Math.abs(getTranslationX()) > getWidth() * mOpenPercent) {
             animateViewOutSwipe(MotionEvent.ACTION_CANCEL);
         } else {

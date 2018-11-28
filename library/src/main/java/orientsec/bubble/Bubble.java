@@ -18,11 +18,11 @@ package orientsec.bubble;
 
 import android.app.Activity;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.DrawableRes;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.design.widget.CoordinatorLayout;
+import androidx.annotation.DrawableRes;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.coordinatorlayout.widget.CoordinatorLayout;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
